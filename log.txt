@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-12-28T19:35:35.965019200Z</date>
+  <millis>1735414535965</millis>
+  <nanos>19200</nanos>
+  <sequence>0</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:35.973385300Z</date>
+  <millis>1735414535973</millis>
+  <nanos>385300</nanos>
+  <sequence>1</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>Log avant l'exécution de la méthode addCompte</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:35.973385300Z</date>
+  <millis>1735414535973</millis>
+  <nanos>385300</nanos>
+  <sequence>2</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>Durée d'exécution de la méthode addCompte est de 10 ms</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:35.974452700Z</date>
+  <millis>1735414535974</millis>
+  <nanos>452700</nanos>
+  <sequence>3</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>Log après l'exécution de la méthode</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:35.974452700Z</date>
+  <millis>1735414535974</millis>
+  <nanos>452700</nanos>
+  <sequence>4</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:40.504825500Z</date>
+  <millis>1735414540504</millis>
+  <nanos>825500</nanos>
+  <sequence>5</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>verser_aroundBody3$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:40.505823200Z</date>
+  <millis>1735414540505</millis>
+  <nanos>823200</nanos>
+  <sequence>6</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>verser_aroundBody3$advice</method>
+  <thread>1</thread>
+  <message>Log avant l'exécution de la méthode verser</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:41.520065300Z</date>
+  <millis>1735414541520</millis>
+  <nanos>65300</nanos>
+  <sequence>7</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>verser_aroundBody3$advice</method>
+  <thread>1</thread>
+  <message>Durée d'exécution de la méthode verser est de 1016 ms</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:41.521832400Z</date>
+  <millis>1735414541521</millis>
+  <nanos>832400</nanos>
+  <sequence>8</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>verser_aroundBody3$advice</method>
+  <thread>1</thread>
+  <message>Log après l'exécution de la méthode</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:41.522842100Z</date>
+  <millis>1735414541522</millis>
+  <nanos>842100</nanos>
+  <sequence>9</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>verser_aroundBody3$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:41.523834Z</date>
+  <millis>1735414541523</millis>
+  <nanos>834000</nanos>
+  <sequence>10</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:41.524830700Z</date>
+  <millis>1735414541524</millis>
+  <nanos>830700</nanos>
+  <sequence>11</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>Log avant l'exécution de la méthode getCompte</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:41.524830700Z</date>
+  <millis>1735414541524</millis>
+  <nanos>830700</nanos>
+  <sequence>12</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>Durée d'exécution de la méthode getCompte est de 1 ms</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:41.525832100Z</date>
+  <millis>1735414541525</millis>
+  <nanos>832100</nanos>
+  <sequence>13</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>Log après l'exécution de la méthode</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:41.526774100Z</date>
+  <millis>1735414541526</millis>
+  <nanos>774100</nanos>
+  <sequence>14</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:45.824295900Z</date>
+  <millis>1735414545824</millis>
+  <nanos>295900</nanos>
+  <sequence>15</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>retirer_aroundBody5$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:45.824295900Z</date>
+  <millis>1735414545824</millis>
+  <nanos>295900</nanos>
+  <sequence>16</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>retirer_aroundBody5$advice</method>
+  <thread>1</thread>
+  <message>Log avant l'exécution de la méthode retirer</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:45.825248200Z</date>
+  <millis>1735414545825</millis>
+  <nanos>248200</nanos>
+  <sequence>17</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>retirer_aroundBody5$advice</method>
+  <thread>1</thread>
+  <message>Durée d'exécution de la méthode retirer est de 1 ms</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:45.825248200Z</date>
+  <millis>1735414545825</millis>
+  <nanos>248200</nanos>
+  <sequence>18</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>retirer_aroundBody5$advice</method>
+  <thread>1</thread>
+  <message>Log après l'exécution de la méthode</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:45.825248200Z</date>
+  <millis>1735414545825</millis>
+  <nanos>248200</nanos>
+  <sequence>19</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>retirer_aroundBody5$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:45.825248200Z</date>
+  <millis>1735414545825</millis>
+  <nanos>248200</nanos>
+  <sequence>20</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:45.826768600Z</date>
+  <millis>1735414545826</millis>
+  <nanos>768600</nanos>
+  <sequence>21</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>Log avant l'exécution de la méthode getCompte</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:45.827313Z</date>
+  <millis>1735414545827</millis>
+  <nanos>313000</nanos>
+  <sequence>22</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>Durée d'exécution de la méthode getCompte est de 2 ms</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:45.827313Z</date>
+  <millis>1735414545827</millis>
+  <nanos>313000</nanos>
+  <sequence>23</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>Log après l'exécution de la méthode</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:45.827313Z</date>
+  <millis>1735414545827</millis>
+  <nanos>313000</nanos>
+  <sequence>24</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:49.657371100Z</date>
+  <millis>1735414549657</millis>
+  <nanos>371100</nanos>
+  <sequence>25</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>verser_aroundBody3$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:49.658430600Z</date>
+  <millis>1735414549658</millis>
+  <nanos>430600</nanos>
+  <sequence>26</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>verser_aroundBody3$advice</method>
+  <thread>1</thread>
+  <message>Log avant l'exécution de la méthode verser</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:50.659384400Z</date>
+  <millis>1735414550659</millis>
+  <nanos>384400</nanos>
+  <sequence>27</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>verser_aroundBody3$advice</method>
+  <thread>1</thread>
+  <message>Durée d'exécution de la méthode verser est de 1002 ms</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:50.660370Z</date>
+  <millis>1735414550660</millis>
+  <nanos>370000</nanos>
+  <sequence>28</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>verser_aroundBody3$advice</method>
+  <thread>1</thread>
+  <message>Log après l'exécution de la méthode</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:50.661377800Z</date>
+  <millis>1735414550661</millis>
+  <nanos>377800</nanos>
+  <sequence>29</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>verser_aroundBody3$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:50.662387Z</date>
+  <millis>1735414550662</millis>
+  <nanos>387000</nanos>
+  <sequence>30</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:50.662387Z</date>
+  <millis>1735414550662</millis>
+  <nanos>387000</nanos>
+  <sequence>31</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>Log avant l'exécution de la méthode getCompte</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:50.663375700Z</date>
+  <millis>1735414550663</millis>
+  <nanos>375700</nanos>
+  <sequence>32</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>Durée d'exécution de la méthode getCompte est de 1 ms</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:50.664378300Z</date>
+  <millis>1735414550664</millis>
+  <nanos>378300</nanos>
+  <sequence>33</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>Log après l'exécution de la méthode</message>
+</record>
+<record>
+  <date>2024-12-28T19:35:50.664378300Z</date>
+  <millis>1735414550664</millis>
+  <nanos>378300</nanos>
+  <sequence>34</sequence>
+  <logger>elhanchir.mohamed.aspect.LoggingAspect</logger>
+  <level>INFO</level>
+  <class>elhanchir.mohamed.metier.IMetierBanqueImpl</class>
+  <method>getCompte_aroundBody7$advice</method>
+  <thread>1</thread>
+  <message>----------------------------------</message>
+</record>
+</log>

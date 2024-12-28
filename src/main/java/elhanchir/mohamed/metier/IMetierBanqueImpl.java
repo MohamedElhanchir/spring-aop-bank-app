@@ -4,6 +4,8 @@ import elhanchir.mohamed.entities.Compte;
 
 import java.util.HashMap;
 
+import static java.lang.Thread.sleep;
+
 public class IMetierBanqueImpl implements IMetierBanque {
     private HashMap<Long, Compte> comptes = new HashMap<>();
     @Override
@@ -12,9 +14,10 @@ public class IMetierBanqueImpl implements IMetierBanque {
     }
 
     @Override
-    public void verser(Long code, double solde) {
+    public void verser(Long code, double solde) throws InterruptedException {
         Compte compte = comptes.get(code);
         compte.setSolde(compte.getSolde() + solde);
+        sleep(1000);
     }
 
     @Override

@@ -33,7 +33,11 @@ public class Main {
                 case 1:
                     System.out.println("Veuillez saisir le montant à verser: ");
                     double montant = scanner.nextDouble();
-                    metierBanque.verser(code, montant);
+                    try {
+                        metierBanque.verser(code, montant);
+                    } catch (InterruptedException e) {
+                        throw new RuntimeException(e);
+                    }
                     System.out.println(metierBanque.getCompte(code));
                     break;
                 case 2:
