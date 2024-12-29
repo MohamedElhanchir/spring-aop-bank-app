@@ -22,7 +22,9 @@ public class Main {
         metierBanque.addCompte(new Compte(code, solde));
         System.out.println("Compte créé avec succès.");
 
+
         while (true){
+            try {
             System.out.println("<------- Veuillez saisir le code de l'opération à effectuer ------->");
             System.out.println("1: Verser");
             System.out.println("2: Retirer");
@@ -52,8 +54,11 @@ public class Main {
                     break;
                 default:
                     System.out.println("Veuillez saisir un choix valide!!");
+            }}catch (Exception e){
+                System.out.println(e.getMessage());
             }
         }
+
 
     }
 }
