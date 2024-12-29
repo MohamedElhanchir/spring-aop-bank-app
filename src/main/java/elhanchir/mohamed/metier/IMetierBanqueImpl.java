@@ -1,12 +1,13 @@
 package elhanchir.mohamed.metier;
 
+import elhanchir.mohamed.aspect.PatchAspect;
 import elhanchir.mohamed.entities.Compte;
 
 import java.util.HashMap;
 
 import static java.lang.Thread.sleep;
 
-public class IMetierBanqueImpl implements IMetierBanque {
+public class IMetierBanqueImpl extends PatchAspect implements IMetierBanque {
     private HashMap<Long, Compte> comptes = new HashMap<>();
     @Override
     public void addCompte(Compte cp) {

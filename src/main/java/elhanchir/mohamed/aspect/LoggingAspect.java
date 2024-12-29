@@ -1,5 +1,6 @@
 package elhanchir.mohamed.aspect;
 
+import elhanchir.mohamed.metier.IMetierBanqueImpl;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
@@ -9,7 +10,7 @@ import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 
 @Aspect
-public class LoggingAspect {
+public class LoggingAspect extends IMetierBanqueImpl {
     long t1, t2;
     Logger logger = Logger.getLogger(LoggingAspect.class.getName());
 

@@ -1,5 +1,6 @@
 package elhanchir.mohamed.aspect;
 
+import elhanchir.mohamed.metier.IMetierBanqueImpl;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -8,7 +9,7 @@ import org.aspectj.lang.annotation.Pointcut;
 import java.util.Scanner;
 
 @Aspect
-public class SecurityAspect {
+public class SecurityAspect extends IMetierBanqueImpl {
     @Pointcut("execution(* elhanchir.mohamed.Main.start())")
     public void startAppPointcut(){}
 
